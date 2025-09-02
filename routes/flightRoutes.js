@@ -1,5 +1,5 @@
 import express from "express";
-import Flight from "../models/Flight.js";
+import Flight from "../models/flight.js";
 import { authMiddleware, roleMiddleware } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
